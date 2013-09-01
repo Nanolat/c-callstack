@@ -5,7 +5,8 @@ An implementation to show Java-like call stack in C/C++ code.
 
 Problem
 =======
-Usually C programmers use int type for the return value of a function, returning a non-zero value indicating that an error happened in it. However, with tens of function calls nested, it is not easy to know where the error started on which function call path.
+
+Usually C programmers use int type for the return value of a function, returning a non-zero value indicating that an error has happened in it. However, with tens of nested function calls, it is takes time to know where the error happened at the beginning.
 
 ```
 int foo(...)
@@ -21,6 +22,7 @@ int foo(...)
 
 Solution
 ========
+
 Include c-callstack.h.
 Use NL_RETURN(x) instead of return x in your source code.
 
@@ -41,6 +43,7 @@ int foo(...)
 Example Call Stack
 ==================
 Make it, and run ./sample. You will see pretty call stack in your C/C++ program.
+
 ```
 kangmo@ubuntu:~/c-callstack$ make
 gcc -g -O0 sample.c -o sample
