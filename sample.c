@@ -17,7 +17,7 @@ That's it!
 
 int so_topless_ranking_server() {
 
-    printf("If you love me, we are in trouble, as I am married.\n");
+    printf("If you love me, you are in trouble, as I am married.\n");
 
     if ( YOU LOVE ME )
         NL_RETURN (-1);

@@ -49,7 +49,7 @@ kangmo@ubuntu:~/c-callstack$ make
 gcc -g -O0 sample.c -o sample
 
 kangmo@ubuntu:~/c-callstack$ ./sample 
-If you love me, we are in trouble, as I am married.
+If you love me, you are in trouble, as I am married.
 Error(code:-1) at : so_topless_ranking_server (sample.c:23)
 Error(code:-1) at : nanolat_database (sample.c:31)
 Error(code:-1) at : nanolat_message_queue (sample.c:39)
