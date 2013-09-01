@@ -5,7 +5,7 @@
 //
 // Copyright 2013 Kangmo Kim, Nanolat Software. 
 //
-// email : kangmo@nanolat.com
+// e-mail : kangmo@nanolat.com
 // 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-// c-callstack.h : Show Java-like call stack in C/C++ projects.
+// c-callstack.h : Show Java-like callstack in C/C++ projects.
 //
 ***************************************************************************/
 
@@ -33,7 +33,7 @@
    {                                                          \
      if ((rc)) {                                              \
        fprintf( stderr,                                       \
-                "Error(code:%d) at : %s (File:%s,Line:%d)\n", \
+                "Error(code:%d) at : %s (%s:%d)\n",           \
                 (rc), __FUNCTION__, __FILE__, __LINE__);      \
      }                                                        \
      return (rc);                                             \
